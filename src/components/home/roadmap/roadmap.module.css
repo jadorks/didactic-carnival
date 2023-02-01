@@ -1,0 +1,43 @@
+.container {
+  @apply lg:pt-16 lg:pb-28 py-12 min-h-[741px];
+  @apply bg-no-repeat bg-cover bg-center;
+  @apply bg-[url(/src/assets/image/dworm/roadmap-bg.png)] flex flex-col items-center justify-center;
+}
+
+.content {
+  @apply flex flex-col items-center justify-center;
+}
+
+.in__roadmap__container {
+  @apply lg:flex hidden mt-10 flex-col w-full px-16;
+  position: relative;
+}
+
+.roadmap__graphics {
+  @apply md:mt-20 mt-10;
+}
+
+.roadmap__graphics svg {
+  @apply md:h-[220px] h-[170px] w-auto lg:h-full lg:w-full;
+}
+
+.out__roadmap__container {
+  @apply lg:hidden flex flex-col gap-10;
+  @apply pt-2 pb-14 mt-4;
+}
+
+.roadmap__svg__container {
+  @apply overflow-auto;
+}
+
+.roadmap__svg__head {
+  @apply font-nba-bold text-[26px] pb-6 pl-2 sticky left-1;
+}
+
+.roadmap__svg_nav_text {
+  @apply font-nba-bold cursor-pointer hover:fill-primary-green-light;
+}
+
+.roadmap__svg_text {
+  @apply lato-bold-24 fill-white;
+}

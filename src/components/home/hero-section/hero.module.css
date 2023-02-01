@@ -1,0 +1,77 @@
+.container {
+  @apply bg-no-repeat bg-cover bg-right lg:bg-center;
+  @apply bg-[url(/src/assets/image/dworm/hero.jpg)];
+}
+
+.content {
+  @apply flex lg:flex-row flex-col items-center;
+  @apply justify-between pt-24;
+  @apply lg:bg-[#00000000] bg-[#000000ed];
+}
+
+.content__left {
+  @apply flex flex-col items-center lg:items-start justify-center lg:w-1/2 w-full;
+  @apply max-h-[910px] min-h-[600px] h-screen;
+}
+
+.content__left_image {
+}
+
+.content__left_text {
+  @apply text-white text-center lg:text-left font-lato-reg lg:lato-24 text-[17px];
+  @apply lg:my-9 my-12;
+  @apply overflow-hidden  inline-flex;
+  /* animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite; */
+}
+
+
+.content_left_buttons {
+  @apply flex lg:flex-row flex-col gap-5 lg:pb-8 pb-14 ml-4 lg:ml-0;
+}
+
+.button {
+  @apply w-[160px];
+}
+
+.content__right {
+  @apply lg:flex lg:w-3/4 lg:ml-32 hidden;
+  @apply max-h-[910px] min-h-[600px] h-screen;
+}
+
+.content__right_image {
+  @apply object-fill;
+}
+
+.content__left,
+.content__right {
+  @apply p-1;
+}
+
+.content__right{
+  @apply pb-0;
+}
+
+/* The typing effect */
+/* @keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 344px;
+  }
+} */
+
+/* The typewriter cursor effect */
+/* @keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #00ff8b;
+  }
+} */
+
+.spacer {
+  @apply px-2;
+}

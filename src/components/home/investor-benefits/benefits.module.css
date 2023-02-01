@@ -1,0 +1,27 @@
+.container {
+  @apply bg-no-repeat bg-cover bg-[url(/src/assets/image/benefits.png)];
+  @apply py-28;
+}
+
+.content {
+  @apply flex flex-col items-center justify-center;
+}
+
+.benefits {
+  @apply flex items-start flex-wrap justify-around gap-4;
+  @apply mt-12;
+}
+
+.benefit {
+  @apply flex flex-col items-center justify-center;
+  @apply max-w-[420px] md:w-2/5 mt-12;
+}
+
+.heading {
+  @apply font-nba-bold flex items-center gap-3 py-2 lg:nba-bold-24 nba-bold-21;
+  @apply text-center;
+}
+
+.description {
+  @apply font-nba-bold text-center lg:text-base text-sm max-w-[420px];
+}

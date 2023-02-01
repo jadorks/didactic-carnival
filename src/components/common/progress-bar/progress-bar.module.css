@@ -1,0 +1,21 @@
+.container {
+    @apply w-full;
+}
+.content {
+    @apply flex flex-col;
+}
+
+.progress_bar_title {
+    @apply flex justify-between;
+}
+
+.progress_bar {
+    background-color: #5C39B2;
+    border-radius: 1rem;
+    height: 20px;
+}
+
+.progress {
+    height: 100%;
+    border-radius: 1rem;
+}

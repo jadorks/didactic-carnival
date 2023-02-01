@@ -1,0 +1,48 @@
+.container {
+  @apply bg-no-repeat bg-cover bg-center;
+  @apply lg:bg-[url(/src/assets/image/dots-bg.png)]  bg-[url(/src/assets/image/shonen-money.png)];
+}
+
+.content {
+  @apply flex lg:flex-row flex-col items-center;
+  @apply justify-between pt-24;
+  @apply lg:bg-transparent bg-[#000000ed];
+}
+
+.content__left {
+  @apply flex flex-col items-center justify-center lg:w-1/2 w-full;
+  @apply max-h-[910px] min-h-[600px] h-screen;
+}
+
+.content__left_image {
+}
+
+.content__left_text {
+  @apply text-white font-nba-bold lg:nba-bold-21 text-[17px];
+  @apply lg:my-9 my-12;
+  @apply overflow-hidden inline-flex;
+}
+
+.content_left_buttons {
+  @apply flex lg:flex-row flex-col gap-5 lg:pb-8 pb-14;
+}
+
+.button {
+  @apply w-[160px];
+}
+
+.content__right {
+  @apply lg:flex lg:w-1/2 hidden;
+}
+
+.content__right_image {
+}
+
+.content__left,
+.content__right {
+  @apply p-1;
+}
+
+.spacer {
+  @apply px-2;
+}

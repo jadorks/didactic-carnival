@@ -1,0 +1,41 @@
+.container {
+  position: relative;
+  @apply pt-20 pb-32 mt-0 lg:mt-[-20rem];
+  @apply lg:bg-[url(/src/assets/image/dworm/tokenomics-bg.png)];
+  @apply bg-no-repeat bg-cover bg-top;
+}
+
+.content {
+  @apply flex lg:flex-row flex-col items-center justify-between px-4 lg:p-16;
+}
+
+.content__left {
+  @apply flex flex-col lg:w-1/2 lg:w-2/5 w-full justify-center lg:mt-0 mt-8;
+}
+
+.content__left_image {
+  @apply px-8;
+}
+
+.content__right {
+  @apply flex flex-col lg:w-1/2 lg:w-[55%] w-full lg:justify-start justify-center;
+}
+
+.content__left,
+.content__right {
+  @apply xl:p-0 lg:p-8;
+}
+
+.content__right_title {
+  @apply items-center xl:gap-8 gap-2 lg:justify-start justify-center;
+  @apply font-nba-bold xl:nba-bold-48 lg:nba-bold-32 lg:nba-bold-26 nba-bold-24;
+}
+
+.content__right_dart {
+  @apply xl:h-auto w-auto lg:h-10 h-8;
+}
+
+.content__right_text {
+  @apply flex w-full justify-center xl:mt-20 lg:mt-12 mt-10;
+  @apply text-center;
+}

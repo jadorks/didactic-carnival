@@ -1,0 +1,5 @@
+.tokenomics_text{
+    @apply fill-black origin-center font-fewt-slim text-[30px] uppercase;
+    dominant-baseline: middle;
+    text-anchor: middle;
+}

@@ -1,0 +1,21 @@
+.container {
+  @apply relative flex;
+}
+
+.svg {
+  @apply xl:w-full lg:w-[90%] h-auto w-[75%];
+}
+
+.content {
+  @apply flex absolute xl:w-full lg:w-[90%] h-full;
+  @apply flex-col items-center justify-center;
+}
+
+.heading {
+  @apply xl:text-base lg:text-[13px] md:text-xs text-[9px];
+}
+
+.main {
+  @apply xl:text-2xl lg:text-[19px] md:text-[18px] text-[13px];
+  @apply xl:py-[9px] lg:py-[6px] md:py-[5px] py-[4px];
+}

@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-[#080013] m-0 font-rotor-reg;
+}
+html {
+  scroll-behavior: smooth;
+}

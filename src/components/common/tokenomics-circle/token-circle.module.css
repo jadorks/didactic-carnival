@@ -1,0 +1,5 @@
+.tokenomics_text{
+    @apply fill-white origin-center font-freude-reg text-[30px] uppercase;
+    dominant-baseline: middle;
+    text-anchor: middle;
+}

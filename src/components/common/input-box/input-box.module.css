@@ -1,0 +1,6 @@
+input {
+  @apply bg-tertiary-grey-input;
+  @apply text-secondary-black;
+
+  clip-path: polygon(2.4% 0%, 0% 24%, 0% 100%, 97.4% 100%, 100% 76%, 100% 0%);
+}

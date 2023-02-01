@@ -1,0 +1,44 @@
+.container {
+  @apply bg-no-repeat bg-cover flex pt-6 -mt-4 bg-[#080013];
+}
+
+.footer_left {
+  @apply flex items-center justify-center;
+}
+
+.content {
+  @apply flex justify-between lg:flex-row flex-col lg:mb-0 mt-3 mb-6;
+}
+
+.main_content {
+  @apply flex justify-evenly lg:w-3/4;
+}
+
+.footer_center {
+  @apply flex justify-center gap-1 items-center lg:ml-10;
+}
+
+.footer_right {
+  @apply flex justify-center items-center;
+}
+
+.footer_right,
+.footer_center {
+  @apply lg:my-8 my-4;
+}
+
+.action_buttons {
+  @apply flex flex-col gap-6 mt-7 lg:mb-6 mb-7;
+}
+
+.builtBy a {
+  @apply text-primary-green;
+}
+
+.button {
+  @apply lg:w-[160px] w-[8rem];
+}
+
+.trippleDart {
+  @apply lg:w-6 w-6;
+}

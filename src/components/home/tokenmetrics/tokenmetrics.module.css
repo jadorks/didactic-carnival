@@ -1,0 +1,30 @@
+.container {
+  @apply pt-28 lg:pb-28 pb-8;
+}
+
+.tokenmetrics {
+  @apply flex lg:flex-nowrap flex-wrap items-center;
+  @apply justify-between mt-14;
+}
+
+.tokenmetric {
+  @apply relative lg:w-[unset] w-1/2  flex items-center;
+  @apply justify-center py-4;
+}
+
+.tokenmetricbg {
+  @apply xl:w-auto h-auto lg:w-[14rem] w-4/5;
+}
+
+.tokenmetricText {
+  @apply absolute top-0 left-0 w-full h-full;
+  @apply flex flex-col items-center justify-center;
+}
+
+.title {
+  @apply font-nba-bold xl:text-[24px] xl:py-[6px] lg:text-[20px] lg:py-[6px] md:text-[26px] md:py-[7px] text-[14px] py-[3px];
+}
+
+.description {
+  @apply font-nba-bold xl:py-[13px] xl:text-[16px] lg:text-[14px]  lg:py-[10px]  md:text-[18px] md:py-[14px] text-[9px] py-[7px];
+}

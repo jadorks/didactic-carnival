@@ -1,0 +1,30 @@
+.container {
+  @apply pt-24 pb-2;
+}
+
+.content {
+  @apply flex flex-col items-center justify-start;
+}
+
+.features {
+  @apply grid grid-cols-1 md:grid-cols-3 justify-center justify-items-center gap-4 px-4;
+  @apply mt-12;
+}
+
+.feature {
+  @apply flex flex-col items-start justify-center gap-2;
+  @apply max-w-[420px] md:w-1/2 mt-12;
+}
+
+.content__right {
+  @apply flex flex-col
+}
+
+.heading {
+  @apply font-freude-reg py-2 lg:freude-28 freude-22 uppercase;
+}
+
+.description {
+  @apply font-lato-reg lg:text-base text-sm max-w-[420px];
+}
+
