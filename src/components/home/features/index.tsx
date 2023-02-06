@@ -6,19 +6,19 @@ import Button from "../../common/nnbutton";
 function Features() {
   const features: { title: string; description: string }[] = [
     {
-      title: "Liquidity Locking",
+      title: "Cleaner Wallets",
       description:
-        "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus repellat unde, impedit suscipit excepturi consectetur ducimus soluta? Ipsum maiores, optio esse laudantium nisi aperiam fugit sequi odit odio praesentium obcaecati.",
+        "DWORM helps users clean up their crypto wallets by collecting all the leftover 'dog shit' tokens and giving them an opportunity to trade them for SHIB on the Shibarium network.",
     },
     {
-      title: "Seamless Upgrades",
+      title: "Community Focused",
       description:
-        "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus repellat unde, impedit suscipit excepturi consectetur ducimus soluta? Ipsum maiores, optio esse laudantium nisi aperiam fugit sequi odit odio praesentium obcaecati.",
+        "DWORM loves its community; hence, the governance can vote for the accepted leftover 'dog shit' tokens. DWORM also incentivises users to participate by offering a chance to win a reward. We can't forget DWORM's staking platform which also provides users with 700% APY in an unlocked pool allowing users to withdraw at any time.",
     },
     {
-      title: "Seamless Upgrades",
+      title: "Endless Value",
       description:
-        "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus repellat unde, impedit suscipit excepturi consectetur ducimus soluta? Ipsum maiores, optio esse laudantium nisi aperiam fugit sequi odit odio praesentium obcaecati.",
+        "After each collection round, a percentage of the amount collected is collected to help increase the value of DWORM. That percentage may be used for buybacks, burns or sent to the treasury.",
     },
   ];
   return (
@@ -29,9 +29,16 @@ function Features() {
             <h2 className="font-freude-reg xl:freude-64 freude-48 uppercase">
               Why Dworm?
             </h2>
-            <p className="lato-20 w-full md:w-1/2 text-center md:text-left">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              error sit voluptatem
+            <p className="lato-20 w-full md:w-1/2 text-center text-justify">
+              With shibarium coming, the dogs will be abundant, but nobody is
+              thinking about the shit, yes, the dog shit, that all these coins
+              produce. That's where DWORM comes into play. We have developed a
+              system where we will collect all the leftover dog tokens in your
+              wallets from all networks to help you clean up your shit, in turn
+              giving you what can be used to trade for SHIB on the Shibarium
+              network. Let's not be those people that just leave dogshit all
+              over the park, fill up your bags and let's make this a cleaner
+              place.
             </p>
           </div>
           <div className={`${styles.features}`}>

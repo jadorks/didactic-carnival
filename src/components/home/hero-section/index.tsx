@@ -14,10 +14,9 @@ function Hero() {
             className={styles.content__left_image}
           />
           <div className={styles.content__left_text}>
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-            quae ab illo inventore veritatis et quasi architecto beatae vitae
-            dicta sunt explicabo.
+            With the arrival of Shibarium and the abundance of dog coins, it's
+            easy to overlook the leftover "dog shit" that accumulates in your
+            wallets. But, DWORM is here to take care of it for you.
           </div>
           <div className={styles.content_left_buttons}>
             <Button
