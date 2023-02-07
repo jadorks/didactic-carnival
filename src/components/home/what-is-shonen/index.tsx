@@ -7,13 +7,13 @@ function WhatIsShonen() {
   const taxes = [
     {
       title: "Marketing",
-      value: "4",
+      value: "2",
       percent: 0.2,
       pillColour: "#05FD13",
     },
     {
       title: "Infrastructure",
-      value: "4",
+      value: "2",
       percent: 0.2,
       pillColour: "#CCE005",
     }
@@ -37,7 +37,7 @@ function WhatIsShonen() {
           </div>
         </div>
         <div className={styles.content__left}>
-          <h3 className="font-freude-reg freude-48">Tax 8%</h3>
+          <h3 className="font-freude-reg freude-48">Tax: 4% Buy / 4% Sell</h3>
           <div className="flex flex-col gap-8">
             {taxes.map((item, index) => (
               <ProgressBar
