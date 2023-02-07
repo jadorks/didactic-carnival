@@ -13,7 +13,7 @@ function Features() {
     {
       title: "Community Focused",
       description:
-        "DWORM loves its community; hence, the governance can vote for the accepted leftover 'dog shit' tokens. DWORM also incentivises users to participate by offering a chance to win a reward. We can't forget DWORM's staking platform which also provides users with 700% APY in an unlocked pool allowing users to withdraw at any time.",
+        "DWORM loves its community; hence, the governance can vote for the accepted leftover 'dog shit' tokens. DWORM also incentivises users to participate by offering a chance to win a reward. We can't forget DWORM's staking platform which also provides users with 333% APY in an unlocked pool allowing users to withdraw at any time.",
     },
     {
       title: "Endless Value",
