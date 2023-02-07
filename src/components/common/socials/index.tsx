@@ -8,14 +8,14 @@ const Socials: FC = () => {
   return (
     <div className={styles.social_links}>
       <a
-        href="/#"
+        href="https://twitter.com/DwormDev"
         rel="noopener noreferrer"
         target="_blank"
       >
         <Twitter />
       </a>
       <a
-        href="/#"
+        href="https://t.me/dwormportalgroup"
         rel="noopener noreferrer"
         target="_blank"
       >
