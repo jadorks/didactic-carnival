@@ -17,7 +17,7 @@
 }
 
 .content__right {
-  @apply flex flex-col
+  @apply flex flex-col;
 }
 
 .heading {
@@ -27,4 +27,3 @@
 .description {
   @apply font-lato-reg lg:text-base text-sm max-w-[420px];
 }
-
