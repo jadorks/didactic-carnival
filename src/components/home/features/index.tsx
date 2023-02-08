@@ -55,7 +55,7 @@ function Features() {
             ))}
           </div>
           <Button
-            href="#"
+            href="https://app.uniswap.org/#/swap?outputCurrency=0xf1b315293f358afc64db8eddef25c26d1592ba05"
             buttonAs="a"
             target="_blank"
             buttonType="secondary"
