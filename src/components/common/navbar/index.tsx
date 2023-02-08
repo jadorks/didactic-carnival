@@ -1,6 +1,6 @@
 import React, { FC } from "react";
 import styles from "./nav.module.css";
-import { Menu, Popover } from "@headlessui/react";
+import {  Popover } from "@headlessui/react";
 import { NavLink } from "react-router-dom";
 import { ReactComponent as Logo } from "../../../assets/image/dworm/logo-text-only.svg";
 import { ReactComponent as Humburger } from "../../../assets/icons/mobile-nav.svg";
